@@ -12,3 +12,7 @@ weight = input("enter your weight in kg: ")
 # Step 2: convert height ('str') into float.
 fl_height = float(height)
 # print(type(fl_height))
+
+# Step 3: convert height ('str') into int.
+num_weight = int(weight)
+print(type(num_weight))
