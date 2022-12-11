@@ -6,5 +6,5 @@ weight = input("enter your weight in kg: ")
 #Write your code below this line 👇
 
 # Step 1: confirm data type of variables.
-print(type(height))
-print(type(weight))
+# print(type(height))
+# print(type(weight))
