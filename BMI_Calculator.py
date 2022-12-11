@@ -23,3 +23,9 @@ BMI = (num_weight / (fl_height**2))
 # Step 5: Convert result into int (float -> int). Print. 
 BMI = int(BMI)
 print(BMI)
+
+# BMI Categories:
+# Underweight = <18.5
+# Normal weight = 18.5–24.9
+# Overweight = 25–29.9
+# Obesity = BMI of 30 or greater
