@@ -15,4 +15,4 @@ fl_height = float(height)
 
 # Step 3: convert height ('str') into int.
 num_weight = int(weight)
-print(type(num_weight))
+# print(type(num_weight))
