@@ -19,3 +19,7 @@ num_weight = int(weight)
 
 # Step 4: Execute formula and create new BMI variable
 BMI = (num_weight / (fl_height**2))
+
+# Step 5: Convert result into int (float -> int). Print. 
+BMI = int(BMI)
+print(BMI)
