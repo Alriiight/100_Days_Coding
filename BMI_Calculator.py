@@ -16,3 +16,6 @@ fl_height = float(height)
 # Step 3: convert height ('str') into int.
 num_weight = int(weight)
 # print(type(num_weight))
+
+# Step 4: Execute formula and create new BMI variable
+BMI = (num_weight / (fl_height**2))
