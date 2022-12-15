@@ -18,3 +18,9 @@ num_people = input("How many people are splitting the bill? ")
 print(type(bill_total))
 print(type(percentage_tip))
 print(type(num_people))
+
+# Step 2: Convert data type and figure out a way to create a new variable for percentage_tip that modifies multiplier value to be used with bill_total.
+
+bill_total = float(bill_total)
+percentage_tip = float(percentage_tip)
+num_people = int(num_people)
