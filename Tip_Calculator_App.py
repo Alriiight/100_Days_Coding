@@ -24,3 +24,9 @@ print(type(num_people))
 bill_total = float(bill_total)
 percentage_tip = float(percentage_tip)
 num_people = int(num_people)
+
+# Check data type of new variables.
+
+print(type(bill_total))
+print(type(percentage_tip))
+print(type(num_people))
