@@ -6,3 +6,9 @@
 #Tip: There are 2 ways to round a number. You might have to do some Googling to solve this.💪
 
 #Write your code below this line 👇
+
+# Step 1: Create all input requests and assign variable names to store data. 
+print("Welcome to the tip calcular!\n")
+bill_total = input("What was the total bill? ")
+percentage_tip = input("What percentage would you like to tip? 10, 12, 15? ")
+num_people = input("How many people are splitting the bill? ")
