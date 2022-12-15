@@ -12,3 +12,9 @@ print("Welcome to the tip calcular!\n")
 bill_total = input("What was the total bill? ")
 percentage_tip = input("What percentage would you like to tip? 10, 12, 15? ")
 num_people = input("How many people are splitting the bill? ")
+
+# Check data type of input variables.
+
+print(type(bill_total))
+print(type(percentage_tip))
+print(type(num_people))
