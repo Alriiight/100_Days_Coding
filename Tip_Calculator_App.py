@@ -10,25 +10,29 @@
 # Step 1: Create all input requests and assign variable names to store data. 
 print("Welcome to the tip calcular!\n")
 bill_total = input("What was the total bill? ")
-percentage_tip = input("What percentage would you like to tip? 10, 12, 15? ")
+tip = input("What percentage would you like to tip? 10, 12, 15? ")
 num_people = input("How many people are splitting the bill? ")
 
 # Check data type of input variables.
 
 print(type(bill_total))
-print(type(percentage_tip))
+print(type(tip))
 print(type(num_people))
 
 # Step 2: Convert data type and figure out a way to create a new variable for percentage_tip that modifies multiplier value to be used with bill_total.
 
 bill_total = float(bill_total)
-percentage_tip = float(percentage_tip)
+tip = float(tip)
+percentage_tip = tip / 100
 num_people = int(num_people)
+
+
 
 # Check data type of new variables.
 
 print(type(bill_total))
-print(type(percentage_tip))
+print(type(tip))
+print(type(tip))
 print(type(num_people))
 
 # amount_per_person = (float(bill_total) * float(percentage_tip)) / int(num_people)
