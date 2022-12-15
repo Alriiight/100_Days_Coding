@@ -35,6 +35,7 @@ print(type(tip))
 print(type(tip))
 print(type(num_people))
 
-# amount_per_person = (float(bill_total) * float(percentage_tip)) / int(num_people)
+# Add equation to calculate what each person must pay.
 
-# print(f"Each person should pay: {amount_per_person}")
+amount_per_person = (bill_total * percentage_tip) / num_people
+print(amount_per_person)
