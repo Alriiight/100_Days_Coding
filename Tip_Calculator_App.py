@@ -30,3 +30,7 @@ num_people = int(num_people)
 print(type(bill_total))
 print(type(percentage_tip))
 print(type(num_people))
+
+# amount_per_person = (float(bill_total) * float(percentage_tip)) / int(num_people)
+
+# print(f"Each person should pay: {amount_per_person}")
