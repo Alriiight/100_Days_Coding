@@ -23,7 +23,7 @@ print(type(num_people))
 
 bill_total = float(bill_total)
 tip = float(tip)
-percentage_tip = tip / 100
+percentage_tip = (tip / 100) + 1
 num_people = int(num_people)
 
 
