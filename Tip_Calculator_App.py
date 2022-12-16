@@ -38,4 +38,5 @@ print(type(num_people))
 # Add equation to calculate what each person must pay.
 
 amount_per_person = (bill_total * percentage_tip) / num_people
+amount_per_person = round(amount_per_person, 2)
 print(amount_per_person)
