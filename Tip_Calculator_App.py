@@ -15,9 +15,9 @@ num_people = input("How many people are splitting the bill? ")
 
 # Check data type of input variables.
 
-print(type(bill_total))
-print(type(tip))
-print(type(num_people))
+# print(type(bill_total))
+# print(type(tip))
+# print(type(num_people))
 
 # Step 2: Convert data type and figure out a way to create a new variable for percentage_tip that modifies multiplier value to be used with bill_total.
 
@@ -30,10 +30,10 @@ num_people = int(num_people)
 
 # Check data type of new variables.
 
-print(type(bill_total))
-print(type(tip))
-print(type(tip))
-print(type(num_people))
+# print(type(bill_total))
+# print(type(tip))
+# print(type(tip))
+# print(type(num_people))
 
 # Add equation to calculate what each person must pay.
 
