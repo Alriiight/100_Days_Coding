@@ -39,4 +39,5 @@ num_people = int(num_people)
 
 amount_per_person = (bill_total * percentage_tip) / num_people
 amount_per_person = round(amount_per_person, 2)
+amount_per_person = "{:.2f}".format(amount_per_person) # This gives format to the output, so that all floats are printed by 2 digits after the decimal point instead of 1 (ex. instead of showing $35.6 per person, it would print $35.60)
 print(f"Each person should pay: ${amount_per_person}")
