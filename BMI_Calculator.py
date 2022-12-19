@@ -25,12 +25,6 @@ bmi = num_weight / fl_height**2
 bmi_as_int = int(bmi)
 print(f"Your BMI is {bmi_as_int}")
 
-# BMI Categories:
-# Underweight = <18.5
-# Normal weight = 18.5–24.9
-# Overweight = 25–29.9
-# Obesity = BMI of 30 or greater
-
 # Alternate method
 # bmi = int(weight) / float(height) ** 2
 # bmi_as_int = int(bmi)
