@@ -23,7 +23,7 @@ bmi = num_weight / fl_height**2
 
 # Step 5: Convert result into int (float -> int). Print. 
 bmi_as_int = int(bmi)
-print(bmi_as_int)
+print(f"Your BMI is {bmi_as_int}")
 
 # BMI Categories:
 # Underweight = <18.5
