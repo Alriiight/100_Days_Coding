@@ -24,3 +24,5 @@
 #     print("This is an even number.")
 # else:
 #     print ("This is an odd number.")
+
+# EXERCISE 3 - IF/ELIF/ELSE STATEMENTS
