@@ -19,10 +19,10 @@ num_weight = int(weight)
 # print(type(num_weight))
 
 # Step 4: Execute formula and create new BMI variable
-BMI = num_weight / fl_height**2
+bmi = num_weight / fl_height**2
 
 # Step 5: Convert result into int (float -> int). Print. 
-BMI = int(BMI)
+BMI = int(bmi)
 print(BMI)
 
 # BMI Categories:
