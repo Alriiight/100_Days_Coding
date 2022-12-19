@@ -22,7 +22,7 @@ num_weight = int(weight)
 bmi = num_weight / fl_height**2
 
 # Step 5: Convert result into int (float -> int). Print. 
-bmi_as_int = int(bmi)
+bmi_as_int = int(round(bmi))
 
 # Alternate method
 # bmi = int(weight) / float(height) ** 2
