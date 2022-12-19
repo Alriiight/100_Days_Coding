@@ -23,7 +23,6 @@ bmi = num_weight / fl_height**2
 
 # Step 5: Convert result into int (float -> int). Print. 
 bmi_as_int = int(bmi)
-print(f"Your BMI is {bmi_as_int}")
 
 # Alternate method
 # bmi = int(weight) / float(height) ** 2
