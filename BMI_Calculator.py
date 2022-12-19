@@ -3,6 +3,7 @@ height = input("enter your height in m: ")
 weight = input("enter your weight in kg: ")
 # 🚨 Don't change the code above 👆
 
+# Reminder: height must be entered with decimal point, ex. 1.80
 #Write your code below this line 👇
 
 # Step 1: confirm data type of variables.
