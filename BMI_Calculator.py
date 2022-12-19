@@ -17,12 +17,12 @@ fl_height = float(height)
 num_weight = int(weight)
 # print(type(num_weight))
 
-# Step 4: Execute formula and create new bmi variable
-bmi = (num_weight / (fl_height**2))
+# Step 4: Execute formula and create new BMI variable
+BMI = (num_weight / (fl_height**2))
 
 # Step 5: Convert result into int (float -> int). Print. 
-bmi = int(bmi)
-print(bmi)
+BMI = int(BMI)
+print(BMI)
 
 # BMI Categories:
 # Underweight = <18.5
@@ -34,4 +34,3 @@ print(bmi)
 # bmi = int(weight) / float(height) ** 2
 # bmi_as_int = int(bmi)
 # print(bmi_as_int)
-
