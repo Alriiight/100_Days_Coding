@@ -11,16 +11,16 @@
 
 # Exercise 2 - Even/Odd number checker
 
-# 🚨 Don't change the code below 👇
-number = int(input("Which number do you want to check? "))
-# 🚨 Don't change the code above 👆
+# # 🚨 Don't change the code below 👇
+# number = int(input("Which number do you want to check? "))
+# # 🚨 Don't change the code above 👆
 
-#Write your code below this line 👇
+# #Write your code below this line 👇
 
-even_check = number % 2
-# print(even_check)
+# even_check = number % 2
+# # print(even_check)
 
-if even_check == 0:
-    print("This is an even number.")
-else:
-    print ("This is an odd number.")
+# if even_check == 0:
+#     print("This is an even number.")
+# else:
+#     print ("This is an odd number.")
