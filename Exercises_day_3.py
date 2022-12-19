@@ -1,5 +1,5 @@
 
-# Exercise 1
+# EXERCISE 1
 
 # print("Welcome to the rollercoaster!")
 # height = int(input("What is your height in cm? "))
@@ -9,7 +9,7 @@
 # else:
 #   print("Sorry, you have to grow taller before you can ride.")
 
-# Exercise 2 - Even/Odd number checker
+# EXERCISE 2 - Even/Odd number checker
 
 # # 🚨 Don't change the code below 👇
 # number = int(input("Which number do you want to check? "))
