@@ -37,12 +37,12 @@ print(f"Your BMI is {bmi_as_int}")
 # print(bmi_as_int)
 
 if bmi_as_int < 18.5:
-    print("You are underweight.")
+    print(f"Your BMI is {bmi_as_int}, you are underweight.")
 elif bmi_as_int < 25:
-    print("You have a normal weight.")
+    print(f"Your BMI is {bmi_as_int}, you have a normal weight.")
 elif bmi_as_int < 30:
-    print("You are overweight.")
+    print(f"Your BMI is {bmi_as_int}, you are slightly overweight.")
 elif bmi_as_int < 35:
-    print("You are obese.")
+    print(f"Your BMI is {bmi_as_int}, you are obese.")
 else: 
-    print("You are clinically obese.")
+    print(f"Your BMI is {bmi_as_int}, you are clinically obese.")
