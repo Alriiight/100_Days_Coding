@@ -15,3 +15,5 @@ if size == "M":
     bill = 20
 if size == "L":
     bill = 25
+
+print(f"Your final bill is: {bill}.")
