@@ -22,3 +22,16 @@ num_e = name1.count("e") + name2.count("e")
 
 num_true = num_t + num_r + num_u + num_e
 print(f"Your 'true' score is {num_true}")
+
+# Count for love
+num_l = name1.count("l") + name2.count("l")
+# print(num_l)
+num_o = name1.count("o") + name2.count("o")
+# print(num_o)
+num_v = name1.count("v") + name2.count("v")
+# print(num_v)
+num_e = name1.count("e") + name2.count("e")
+# print(num_e)
+
+num_love = num_l + num_o + num_v + num_e
+print(f"Your 'love' score is {num_love}")
