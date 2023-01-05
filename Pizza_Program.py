@@ -9,3 +9,9 @@ extra_cheese = input("Do you want extra cheese? Y or N ")
 
 bill = 0
 
+if size == "S":
+    bill = 15
+if size == "M":
+    bill = 20
+if size == "L":
+    bill = 25
