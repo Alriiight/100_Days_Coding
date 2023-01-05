@@ -35,3 +35,6 @@ num_e = name1.count("e") + name2.count("e")
 
 num_love = num_l + num_o + num_v + num_e
 print(f"Your 'love' score is {num_love}")
+
+total_compatibility = str(num_true) + str(num_love)
+print("Your love score is " + total_compatibility)
