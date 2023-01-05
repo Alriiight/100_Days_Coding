@@ -12,13 +12,16 @@ bill = 0
 # Size selection
 if size == "S":
     bill = 15
+    if add_pepperoni == "Y":
+        bill += 2
 if size == "M":
     bill = 20
+    if add_pepperoni == "Y":
+        bill += 3
 if size == "L":
     bill = 25
-
-# Additional pepperoni?
-
+    if add_pepperoni == "Y":
+        bill += 3
 
 # Extra cheese?
 
