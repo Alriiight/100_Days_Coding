@@ -23,3 +23,10 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
+
+step_one = input("left or right? ").lower()
+
+if step_one == "left":
+    print("Yay, you can continue")
+else:
+    print("Game Over.")
