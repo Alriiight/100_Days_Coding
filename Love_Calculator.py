@@ -38,3 +38,12 @@ num_love = num_l + num_o + num_v + num_e
 
 total_compatibility = str(num_true) + str(num_love)
 print("Your love score is " + total_compatibility)
+
+num_tot_comp = int(total_compatibility)
+
+if num_tot_comp < 10 or num_tot_comp > 90:
+    print(f"Your score is {num_tot_comp}, you go together like coke and mentos.")
+elif num_tot_comp > 40 and num_tot_comp < 50:
+    print(f"Your score {num_tot_comp}, you are alright together.")
+else:
+    print(f"Your score is {num_tot_comp}.")
