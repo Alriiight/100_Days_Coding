@@ -7,30 +7,30 @@ name2 = input("What is their name? \n")
 #Write your code below this line 👇
 
 # Change to lower case.
-name1.lower()
-name2.lower()
+name1_lowercase = name1.lower()
+name2_lowercase = name2.lower()
 
 # Count for true
-num_t = name1.count("t") + name2.count("t")
+num_t = name1_lowercase.count("t") + name2_lowercase.count("t")
 # print(num_t)
-num_r = name1.count("r") + name2.count("r")
+num_r = name1_lowercase.count("r") + name2_lowercase.count("r")
 # print(num_r)
-num_u = name1.count("u") + name2.count("u")
+num_u = name1_lowercase.count("u") + name2_lowercase.count("u")
 # print(num_u)
-num_e = name1.count("e") + name2.count("e")
+num_e = name1_lowercase.count("e") + name2_lowercase.count("e")
 # print(num_e)
 
 num_true = num_t + num_r + num_u + num_e
 # print(f"Your 'true' score is {num_true}")
 
 # Count for love
-num_l = name1.count("l") + name2.count("l")
+num_l = name1_lowercase.count("l") + name2_lowercase.count("l")
 # print(num_l)
-num_o = name1.count("o") + name2.count("o")
+num_o = name1_lowercase.count("o") + name2_lowercase.count("o")
 # print(num_o)
-num_v = name1.count("v") + name2.count("v")
+num_v = name1_lowercase.count("v") + name2_lowercase.count("v")
 # print(num_v)
-num_e = name1.count("e") + name2.count("e")
+num_e = name1_lowercase.count("e") + name2_lowercase.count("e")
 # print(num_e)
 
 num_love = num_l + num_o + num_v + num_e
