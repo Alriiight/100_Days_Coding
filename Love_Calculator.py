@@ -21,7 +21,7 @@ num_e = name1.count("e") + name2.count("e")
 # print(num_e)
 
 num_true = num_t + num_r + num_u + num_e
-print(f"Your 'true' score is {num_true}")
+# print(f"Your 'true' score is {num_true}")
 
 # Count for love
 num_l = name1.count("l") + name2.count("l")
@@ -34,7 +34,7 @@ num_e = name1.count("e") + name2.count("e")
 # print(num_e)
 
 num_love = num_l + num_o + num_v + num_e
-print(f"Your 'love' score is {num_love}")
+# print(f"Your 'love' score is {num_love}")
 
 total_compatibility = str(num_true) + str(num_love)
 print("Your love score is " + total_compatibility)
