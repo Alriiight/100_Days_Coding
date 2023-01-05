@@ -25,8 +25,13 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
 step_one = input("left or right? ").lower()
+step_two = input("swim or wait? ").lower()
 
 if step_one == "left":
     print("Yay, you can continue")
+    if step_two == "wait":
+        print("Yay, you can continue")
+    else:
+        print("Game Over.")
 else:
     print("Game Over.")
