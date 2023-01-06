@@ -11,4 +11,4 @@
 # print(f"your height is {height} meters, your weight is {weight} kilograms. This means your BMI index is {bmi}. You are overweight is {is_overweight}.")
 
 # LOGICAL OPERATORS
-# and (both need to be true), or (one or the other must be true), not 
+# and (both need to be true), or (one or the other must be true), not.
