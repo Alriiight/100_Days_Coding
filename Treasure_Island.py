@@ -31,6 +31,10 @@ door = input("Which door would you like to open? ").lower()
 if direction == "left":
     if move == "wait":
         print("Yay, you can continue")
+        if door == "yellow":
+            print("You win! Congratulations!")
+        else:
+            print("Game Over.")
     else:
         print("Game Over.")
 else:
