@@ -24,12 +24,12 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-step_one = input("left or right? ").lower()
-step_two = input("swim or wait? ").lower()
+direction = input("left or right? ").lower()
+move = input("swim or wait? ").lower()
+door = input("Which door would you like to open? ").lower()
 
-if step_one == "left":
-    print("Yay, you can continue")
-    if step_two == "wait":
+if direction == "left":
+    if move == "wait":
         print("Yay, you can continue")
     else:
         print("Game Over.")
