@@ -34,9 +34,13 @@ if direction == "left":
         print(f"You chose to open the {door} door.")
         if door == "yellow":
             print("You win!")
+        elif door == "blue":
+            print("You were eaten by a huge bear! Game over.")
+        elif door == "red":
+            print("You burnt to death in a fire! Game over")
         else: 
             print("You got in the way of a speeding train! Game Over.")
     else:
-        print("You were eaten by one million piranhas!!! Game Over.")
+        print("You were eaten by one million piranhas! Game Over.")
 else:
     print("Game Over. You fell into a black hole and you died somewhere in the universe!")
