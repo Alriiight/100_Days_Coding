@@ -25,7 +25,7 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
 direction = input("left or right? ").lower()
-print(f"You chose {direction}.")
+print(f"You chose to go {direction}.")
 if direction == "left":
     move = input("swim or wait? ").lower()
     print(f"You chose to {move}.")
@@ -35,8 +35,8 @@ if direction == "left":
         if door == "yellow":
             print("You win!")
         else: 
-            print("Game Over.")
+            print("You got in the way of a speeding train! Game Over.")
     else:
-        print("Game Over.")
+        print("You were eaten by one million piranhas!!! Game Over.")
 else:
-    print("Game Over.")
+    print("Game Over. You fell into a black hole and you died somewhere in the universe!")
