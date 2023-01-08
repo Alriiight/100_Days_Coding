@@ -37,23 +37,3 @@ if direction == "left":
         print("Game Over.")
 else:
     print("Game Over.")
-
-
-# door = input("Which door would you like to open? ").lower()
-
-# if direction == "left":
-#     input("swim or wait? ").lower()
-    
-#     if move == "wait":
-#         print("Yay, you can continue")
-        
-#         if door == "yellow":
-#             print("You win! Congratulations!")
-#         else:
-#             print("Game Over.")
-    
-#     else:
-#         print("Game Over.")
-
-# else:
-#     print("Game Over.")
