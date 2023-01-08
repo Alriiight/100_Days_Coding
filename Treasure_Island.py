@@ -39,7 +39,7 @@ else:
     print("Game Over.")
 
 
-door = input("Which door would you like to open? ").lower()
+# door = input("Which door would you like to open? ").lower()
 
 # if direction == "left":
 #     input("swim or wait? ").lower()
