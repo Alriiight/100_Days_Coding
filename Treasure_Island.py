@@ -25,10 +25,13 @@ print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
 direction = input("left or right? ").lower()
+print(f"You chose {direction}.")
 if direction == "left":
     move = input("swim or wait? ").lower()
+    print(f"You chose to {move}.")
     if move == "wait":
         door = input("Which door would you like to open? ").lower()
+        print(f"You chose to open the {door} door.")
         if door == "yellow":
             print("You win!")
         else: 
