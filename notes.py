@@ -38,7 +38,10 @@ print(states_of_america[1])
 states_of_america[3] = "pencilvania"
 print(states_of_america)
 
-# Add element to list at the end. Use function append
-
+# Add element to list at the end. Use method append.
 states_of_america.append("Puerto Rico")
+print(states_of_america)
+
+# Add multiple elements to list. In esence, it combines lists and maintains the order, important to use square brackets, otherwise we become an error message for number of elements. Use method extend.
+states_of_america.extend(["El Salvador", "Iran", "Arabia Saudita"])
 print(states_of_america)
