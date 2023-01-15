@@ -7,3 +7,8 @@ import random
 
 toss_result = random.randint(0,1)
 # print(toss_result)
+
+if toss_result == 0:
+    print("Tails")
+else:
+    print("Heads")
