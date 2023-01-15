@@ -33,3 +33,7 @@
 states_of_america = ["Delaware", "Alabama", "Texas", "Pennsylvania"]
 print(states_of_america[1])
 # It is possible to have postive indecis and also negative ex. [-1].
+
+# Modify list element
+states_of_america[3] = "pencilvania"
+print(states_of_america)
