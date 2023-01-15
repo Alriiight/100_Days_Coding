@@ -14,3 +14,16 @@
 # and (both need to be true), or (one or the other must be true), not.
 
 # ------------------------- DAY 4 -------------------------
+
+# RANDOM MODULE
+# import random
+
+# random_integer = random.randint(1, 10)
+# print(random_integer)
+
+# random_float = random.random()
+# print(random_float)
+
+# random_combined = random_integer + random_float
+# print(random_combined)
+
