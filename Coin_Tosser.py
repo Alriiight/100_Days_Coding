@@ -4,3 +4,6 @@
 #Write the rest of your code below this line 👇
 
 import random
+
+toss_result = random.randint(0,1)
+# print(toss_result)
