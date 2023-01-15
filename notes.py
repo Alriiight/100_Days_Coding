@@ -37,3 +37,8 @@ print(states_of_america[1])
 # Modify list element
 states_of_america[3] = "pencilvania"
 print(states_of_america)
+
+# Add element to list at the end. Use function append
+
+states_of_america.append("Puerto Rico")
+print(states_of_america)
