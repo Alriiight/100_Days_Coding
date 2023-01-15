@@ -16,6 +16,7 @@
 # ------------------------- DAY 4 -------------------------
 
 # RANDOM MODULE
+
 # import random
 
 # random_integer = random.randint(1, 10)
@@ -27,3 +28,8 @@
 # random_combined = random_integer + random_float
 # print(random_combined)
 
+# LISTS
+
+states_of_america = ["Delaware", "Alabama", "Texas", "Pennsylvania"]
+print(states_of_america[1])
+# It is possible to have postive indecis and also negative ex. [-1].
