@@ -28,7 +28,7 @@ scissors = '''
 #Write your code below this line 👇
 import random
 
-input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
+player_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 
 computer_choice = random.randint(0, 2)
 print(computer_choice)
