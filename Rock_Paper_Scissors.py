@@ -39,3 +39,10 @@ else:
 
 computer_choice = random.randint(0, 2)
 print(computer_choice)
+
+if computer_choice == 0:
+    print(rock)
+elif computer_choice == 1:
+    print(paper)
+else:
+    print(scissors)
