@@ -53,5 +53,7 @@ else:
 
 if player_choice == "0" and computer_choice == "2" or player_choice == "1" and computer_choice == "0" or player_choice == "2" and computer_choice == "1":
     print("You win!")
+elif player_choice == computer_choice:
+    print("It's a draw")
 else:
     print("You lose")
