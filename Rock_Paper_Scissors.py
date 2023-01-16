@@ -50,17 +50,8 @@ else:
     print(scissors)
 
 # PROGRAM LOGIC
-if player_choice == "0" and computer_choice == "2":
-    print("You win!")
-else:
-    print("You lose")
 
-if player_choice == "1" and computer_choice == "0":
-    print("You win!")
-else:
-    print("You lose")
-
-if player_choice == "2" and computer_choice == "1":
+if player_choice == "0" and computer_choice == "2" or player_choice == "1" and computer_choice == "0" or player_choice == "2" and computer_choice == "1":
     print("You win!")
 else:
     print("You lose")
