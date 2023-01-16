@@ -35,19 +35,23 @@ if player_choice == 0:
     print(rock)
 elif player_choice == 1:
     print(paper)
-else:
+elif player_choice == 2:
     print(scissors)
+else:
+    print(" ")
 
 # COMPUTER CHOICE
 computer_choice = random.randint(0, 2)
-print(computer_choice)
+# print(computer_choice)
 
 if computer_choice == 0:
     print(rock)
 elif computer_choice == 1:
     print(paper)
-else:
+elif computer_choice == 2:
     print(scissors)
+else:
+    print(" ")
 
 # PROGRAM LOGIC
 
