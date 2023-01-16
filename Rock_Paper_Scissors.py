@@ -47,6 +47,7 @@ elif computer_choice == "1":
 else:
     print(scissors)
 
+# PROGRAM LOGIC
 if player_choice == "0" and computer_choice == "2":
     print("You win!")
 else:
