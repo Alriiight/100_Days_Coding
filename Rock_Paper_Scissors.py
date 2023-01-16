@@ -30,9 +30,9 @@ import random
 
 player_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 
-if player_choice == 0:
+if player_choice == "0":
     print(rock)
-elif player_choice == 1:
+elif player_choice == "1":
     print(paper)
 else:
     print(scissors)
@@ -40,9 +40,24 @@ else:
 computer_choice = random.randint(0, 2)
 print(computer_choice)
 
-if computer_choice == 0:
+if computer_choice == "0":
     print(rock)
-elif computer_choice == 1:
+elif computer_choice == "1":
     print(paper)
 else:
     print(scissors)
+
+if player_choice == "0" and computer_choice == "2":
+    print("You win!")
+else:
+    print("You lose")
+
+if player_choice == "1" and computer_choice == "0":
+    print("You win!")
+else:
+    print("You lose")
+
+if player_choice == "2" and computer_choice == "1":
+    print("You win!")
+else:
+    print("You lose")
