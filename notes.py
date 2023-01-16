@@ -30,21 +30,30 @@
 
 # LISTS
 
-states_of_america = ["Delaware", "Alabama", "Texas", "Pennsylvania"]
-print(states_of_america[1])
-# It is possible to have postive indecis and also negative ex. [-1].
+# states_of_america = ["Delaware", "Alabama", "Texas", "Pennsylvania"]
+# print(states_of_america[1])
+# # It is possible to have postive indecis and also negative ex. [-1].
 
-# Modify list element
-states_of_america[3] = "pencilvania"
-print(states_of_america)
+# # Modify list element
+# states_of_america[3] = "pencilvania"
+# print(states_of_america)
 
-# Add element to list at the end. Use method append.
-states_of_america.append("Puerto Rico")
-print(states_of_america)
+# # Add element to list at the end. Use method append.
+# states_of_america.append("Puerto Rico")
+# print(states_of_america)
 
-# Add multiple elements to list. In esence, it combines lists and maintains the order, important to use square brackets, otherwise we become an error message for number of elements. Use method extend.
-states_of_america.extend(["El Salvador", "Iran", "Arabia Saudita"])
-print(states_of_america)
+# # Add multiple elements to list. In esence, it combines lists and maintains the order, important to use square brackets, otherwise we become an error message for number of elements. Use method extend.
+# states_of_america.extend(["El Salvador", "Iran", "Arabia Saudita"])
+# print(states_of_america)
 
 # ----------------------- NOTES DAY 5 ----------------------------
 # For Loop
+
+# FOR LOOP WITH RANGE
+# Add from 1 - 100
+
+sum_result = 0
+for number in range(1,101):
+    sum_result += number
+
+print(sum_result)
