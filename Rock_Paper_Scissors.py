@@ -37,7 +37,7 @@ elif player_choice == "1":
 else:
     print(scissors)
 
-computer_choice = random.randint(0, 2)
+computer_choice = str(random.randint(0, 2))
 print(computer_choice)
 
 if computer_choice == "0":
