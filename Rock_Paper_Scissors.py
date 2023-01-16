@@ -42,7 +42,7 @@ else:
 
 # COMPUTER CHOICE
 computer_choice = random.randint(0, 2)
-# print(computer_choice)
+print("Computer chose: ")
 
 if computer_choice == 0:
     print(rock)
