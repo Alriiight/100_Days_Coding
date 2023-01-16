@@ -28,6 +28,7 @@ scissors = '''
 #Write your code below this line 👇
 import random
 
+# PLAYER CHOICE
 player_choice = input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n")
 
 if player_choice == "0":
@@ -37,6 +38,7 @@ elif player_choice == "1":
 else:
     print(scissors)
 
+# COMPUTER CHOICE
 computer_choice = str(random.randint(0, 2))
 print(computer_choice)
 
