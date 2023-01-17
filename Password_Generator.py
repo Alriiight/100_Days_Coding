@@ -41,5 +41,13 @@ for char in range(1, nr_symbols + 1):
 for char in range(1, nr_numbers + 1):
     password_list.append(random.choice(numbers))
 
+# print(password_list) # To compare password before shuffling
 random.shuffle(password_list)
-print(password_list)
+# print(password_list)
+
+# Convert password_list into a string
+password = ""
+for char in password_list:
+    password += char
+
+print(f"Your password is: {password}")
