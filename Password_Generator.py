@@ -9,7 +9,10 @@ nr_letters = int(input("How many letters would you like in your password?\n"))
 nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
-
+# Easy Level
 pass_let = random.choices(letters, k = nr_letters)
-pass_num = random.choices(numbers, k = nr_numbers)
 pass_sym = random.choices(symbols, k = nr_symbols)
+pass_num = random.choices(numbers, k = nr_numbers)
+
+password = pass_let + pass_sym + pass_num
+print(password)
