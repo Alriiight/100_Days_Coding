@@ -10,8 +10,6 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 nr_numbers = int(input(f"How many numbers would you like?\n"))
 
 
-print(random.choices(letters, k = nr_letters))
-print(random.choices(numbers, k = nr_numbers))
-print(random.choices(symbols, k = nr_symbols))
-
-password = 
+pass_let = random.choices(letters, k = nr_letters)
+pass_num = random.choices(numbers, k = nr_numbers)
+pass_sym = random.choices(symbols, k = nr_symbols)
