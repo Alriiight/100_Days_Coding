@@ -51,7 +51,7 @@
 
 # FOR LOOP WITH RANGE
 # Add from 1 - 100
-
+ 
 sum_result = 0
 for number in range(1,101):
     sum_result += number
