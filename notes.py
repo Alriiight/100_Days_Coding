@@ -56,4 +56,4 @@ sum_result = 0
 for number in range(1,101):
     sum_result += number
 
-print(sum_result) 
+print(sum_result)  
