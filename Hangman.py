@@ -6,8 +6,10 @@ print("Welcome to Hangman!")
 print("Your goal is to guess the word before the character is hanged!")
 
 ran_word = random.choice(word_list)
-print(ran_word)
+# print(ran_word)
 
-user_guess = input("Type a letter: ")
+letters_ran_word = list(ran_word)
+# print(letters_ran_word)
+
+user_guess = input("Type a letter: ").lower()
 print(user_guess)
-
