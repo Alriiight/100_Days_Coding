@@ -2,9 +2,11 @@ import random
 
 word_list = ["monkey", "ape", "car", "dog"]
 
+# START
 print("Welcome to Hangman!")
 print("Your goal is to guess the word before the character is hanged!")
 
+# GENERATE A RANDOM WORD
 ran_word = random.choice(word_list)
 # print(ran_word)
 

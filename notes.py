@@ -52,8 +52,11 @@
 # FOR LOOP WITH RANGE
 # Add from 1 - 100
  
-sum_result = 0
-for number in range(1,101):
-    sum_result += number
+# sum_result = 0
+# for number in range(1,101):
+#     sum_result += number
 
-print(sum_result)
+# print(sum_result)
+
+for num in range(100):
+    print(num) 
