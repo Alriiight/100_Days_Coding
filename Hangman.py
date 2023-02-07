@@ -16,4 +16,4 @@ letters_ran_word = list(ran_word)
 user_guess = input("Type a letter: ").lower()
 print(user_guess)
 
-if user_guess 
+# if user_guess 
