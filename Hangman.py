@@ -5,3 +5,5 @@ letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
 print("Welcome to Hangman!")
 print("Your goal is to guess the word before the character is hanged!")
 
+user_guess = input("Type a letter: ")
+print(user_guess)
