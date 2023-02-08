@@ -1,19 +1,19 @@
+#Step 1 
 import random
 
-word_list = ["monkey", "ape", "car", "dog"]
+word_list = ["aardvark", "baboon", "camel"]
 
-# START
-print("Welcome to Hangman!")
-print("Your goal is to guess the word before the character is hanged!")
+# Todo-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word.
 
-# GENERATE A RANDOM WORD
 chosen_word = random.choice(word_list)
-# print(ran_word)
 
-letters_ran_word = list(ran_word)
-# print(letters_ran_word)
+# Todo-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 
-user_guess = input("Type a letter: ").lower()
-print(user_guess)
+guess = input("Guess a letter: ").lower()
 
-# if user_guess 
+# Todo-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
+
+if guess in chosen_word:
+  print("YAY!")
+else:
+  print("NO!")
