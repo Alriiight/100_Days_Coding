@@ -7,7 +7,7 @@ print("Welcome to Hangman!")
 print("Your goal is to guess the word before the character is hanged!")
 
 # GENERATE A RANDOM WORD
-ran_word = random.choice(word_list)
+chosen_word = random.choice(word_list)
 # print(ran_word)
 
 letters_ran_word = list(ran_word)
