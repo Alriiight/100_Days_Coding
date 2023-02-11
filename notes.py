@@ -61,4 +61,3 @@
 for num in range(100):
     print(num) 
 
-# Que rico se siente este teclado en comparacion al otro. Aunque si extrano la sensacion. Me tengo que acostumbrar a este pero esta super cool. 1650223087. Ahora con el condon encima no se siente tan bien. cuesta un poco mas que se muevan las teclas y debo presionar un poco mas fuerte.
