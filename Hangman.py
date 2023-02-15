@@ -10,6 +10,7 @@ chosen_word = random.choice(word_list)
 # Todo-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 
 display = []
+word_length = len(chosen_word)
 for _ in range(len(chosen_word)):
   display += "_"
 print(display)
