@@ -11,6 +11,7 @@ chosen_word = random.choice(word_list)
 
 display = []
 word_length = len(chosen_word)
+
 for _ in range(word_length):
   display += "_"
 print(display)
@@ -19,11 +20,10 @@ guess = input("Guess a letter: ").lower()
 
 # Todo-3 - Check if the letter the user guessed (guess) is one of the letters in the chosen_word.
 
-for letter in chosen_word:
+for position in range(word_length):
+    letter = chosen_word[position]
     if letter == guess:
-        print("Right")
-    else:
-        print("Wrong")
+        display[position] = letter
 
 # if guess in chosen_word:
 #   print("YAY!") 
