@@ -12,6 +12,7 @@ print(f'Pssst, the solution is {chosen_word}.')
 
 display = [] # I create this empty list in order to store the "spaces" for each letter and its position. It is used to show the user the empty spaces as underscores intead of the actual letters.
 
+#Create blanks
 for _ in range(word_length): 
   display += "_"
 print(display)
@@ -22,11 +23,12 @@ end_of_game = False #Variable is created to properly execute a while loop to kee
 
 while end_of_game == False: 
     guess = input("Guess a letter: ").lower()
-
+    # Check guessed letter
     for position in range(word_length):
         letter = chosen_word[position] #This is used to individually select each letter of the chosen_word and store it in the letter variable to compare with the guessed letter from the user as follows.
         if letter == guess:
             display[position] = letter #Since the user's guess was actually equal to a letter in the chosen word, than the letter is added to the display list in the same position as compared in the previous loop step.
 
+#Check if user has got all letters.
 if "_" not in display:
     end_of_game == True
