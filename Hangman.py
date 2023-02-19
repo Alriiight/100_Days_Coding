@@ -16,10 +16,12 @@ print(display)
 
 # This for loop substitutes each letter from the chosen_word with an underscore. It works by adding one underscore per letter to the empty display list created before. Once it has looped through all the characters, it displays the list as ["_", "_", "_"]
 
-guess = input("Guess a letter: ").lower()
+end_of_game = False
 
-for position in range(word_length):
-    letter = chosen_word[position] #This is used to individually select each letter of the chosen_word and store it in the letter variable to compare with the guessed letter from the user as follows.
-    if letter == guess:
-        display[position] = letter #Since the user's guess was actually equal to a letter in the chosen word, than the letter is added to the display list in the same position as compared in the previous loop step.
+while end_of_game == False:
+    guess = input("Guess a letter: ").lower()
 
+    for position in range(word_length):
+        letter = chosen_word[position] #This is used to individually select each letter of the chosen_word and store it in the letter variable to compare with the guessed letter from the user as follows.
+        if letter == guess:
+            display[position] = letter #Since the user's guess was actually equal to a letter in the chosen word, than the letter is added to the display list in the same position as compared in the previous loop step.
