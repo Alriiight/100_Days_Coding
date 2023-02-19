@@ -5,6 +5,8 @@ word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list) # This variable stores the random word selected from the list above by the program. 
 word_length = len(chosen_word) # Since I was using the len() multiple times, I created this variable for better readability and less typing.0
 
+lives = 6 #Number of total lives (user guesses). If the guessed letter is not in the word, the lives will reduce by 1. If lives goes down to 0 the the game should stop and it should print "You lose.".
+
 #Testing code
 print(f'Pssst, the solution is {chosen_word}.')
 
