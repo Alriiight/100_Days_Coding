@@ -62,4 +62,4 @@ for num in range(100):
     print(num) 
 
 # ----------------------- NOTES DAY . ----------------------------
-#  Took a break for a week due to covid. 
+#  Took a break for a week due to covid.
