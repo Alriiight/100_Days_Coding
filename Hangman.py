@@ -7,7 +7,7 @@ word_length = len(chosen_word) # Since I was using the len() multiple times, I c
 
 lives = 6 #Number of total lives (user guesses). If the guessed letter is not in the word, the lives will reduce by 1. If lives goes down to 0 the the game should stop and it should print "You lose.".
 
-#Testing code
+#Testing code. The following code is only to be used during development for testing and debugging. Once program works as intended, this should be commented out.
 print(f'Pssst, the solution is {chosen_word}.')
 
 display = [] # I create this empty list in order to store the "spaces" for each letter and its position. It is used to show the user the empty spaces as underscores intead of the actual letters.
