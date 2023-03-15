@@ -64,3 +64,5 @@ for num in range(100):
 # ----------------------- NOTES DAY . ----------------------------
 #  Took a break for a week due to covid.
 # Discovered zoom level in VS Code (cmd + "-")
+
+# Todo - Review Hangman.py code and continue project. Follow video and stop being stuck on this lesson.
